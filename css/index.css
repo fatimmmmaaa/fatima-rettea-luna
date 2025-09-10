@@ -1,0 +1,58 @@
+body{
+background-color: black; 
+font-family: "Audiowide", Arial, sans-serif;
+color: white;
+}  
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    font-family: "Bitcount Prop Double", sans-serif;
+    text-shadow: 
+        0 2px 4px #76d337,
+        0 0 10px #76d337,
+        0 0 20px #76d337;
+}
+
+#connect {
+border-radius: 32px;
+margin-left: 70%;
+padding: 32px;
+}
+
+#about, #experience {
+    padding: 20px;
+    border: 30px;
+    border-radius: 12px;
+    margin: 30px;
+    background-color: #76d337;    
+    text-align: center;
+    box-shadow: 
+        0 10px 24px rgb(255, 255, 255),
+        0 0 0 2px rgb(255, 255, 255),
+        0 0 18px rgb(174, 201, 140);
+} 
+
+#experience {
+    list-style: none;
+}
+
+
+#experience ul {
+    list-style-type: square;
+}
+
+#connect ul {
+    list-style-type: square;
+}
+
+
+#connect a:visited {
+  color: white;
+}
+
+#connect a:hover {
+    color: #76d337; 
+    text-decoration: underline;
+}
